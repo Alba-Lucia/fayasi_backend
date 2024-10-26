@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_orders",
+  "info": {
+    "singularName": "how-order",
+    "pluralName": "how-orders",
+    "displayName": "How order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
